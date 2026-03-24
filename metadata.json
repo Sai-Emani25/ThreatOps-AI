@@ -1,0 +1,5 @@
+{
+  "name": "ThreatOps AI Dashboard",
+  "description": "Real-time cybersecurity threat detection dashboard integrating Databricks LLM for anomaly analysis and interactive SOC assistance.",
+  "requestFramePermissions": []
+}

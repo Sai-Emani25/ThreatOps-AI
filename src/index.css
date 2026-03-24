@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .markdown-body h1 { @apply text-lg font-bold mb-2 text-purple-400; }
+  .markdown-body h2 { @apply text-base font-bold mb-2 text-purple-300; }
+  .markdown-body h3 { @apply text-sm font-bold mb-1 text-purple-200; }
+  .markdown-body p { @apply mb-2; }
+  .markdown-body ul { @apply list-disc pl-4 mb-2; }
+  .markdown-body ol { @apply list-decimal pl-4 mb-2; }
+  .markdown-body li { @apply mb-1; }
+  .markdown-body strong { @apply text-purple-200 font-bold; }
+  .markdown-body code { @apply bg-white/10 px-1 rounded font-mono text-[10px]; }
+}
